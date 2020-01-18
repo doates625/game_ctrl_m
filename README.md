@@ -17,4 +17,4 @@ The GameCtrl class has methods for adding arbitrary button, axis, and POV
 name mappings, making it adaptable to any joystick input.
 
 ### Cloning and Submodules
-Clone the repo as '+game_ctrl' and add the containing dir to the Matlab path.
+Clone this repo as '+game_ctrl' and add the containing dir to the Matlab path.
