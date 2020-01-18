@@ -1,8 +1,9 @@
 function analyze(id)
 %ANALYZE(id) Analyze game controller with given ID
 %   
-%   This function determines the number of buttons, axes, and POVs of a connected game controller
-%   and displays their values continuously to help the user identify the ID mappings.
+%   This function determines the number of buttons, axes, and POVs of a game
+%   controller and displays their values continuously to help the user identify
+%   the ID mappings.
 %   
 %   Inputs:
 %   - id = Joystick ID [int, default = 1]
