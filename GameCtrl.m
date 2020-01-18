@@ -75,7 +75,7 @@ classdef GameCtrl < handle
             for i = 1:length(names)
                 name = names{i};
                 obj.dzs(name) = 0;
-                dz = 1.1 * abs(obj.axis(name));
+                dz = 1.2 * abs(obj.axis(name));
                 obj.dzs(name) = dz;
             end
         end
