@@ -8,10 +8,13 @@ function analyze(id)
 %   Inputs:
 %   - id = Joystick ID [int, default = 1]
 
+% Imports
+import('game_ctrl.GameCtrl');
+
 % Make controller
 if nargin < 1, id = 1; end
 vrj = vrjoystick(id);
-ctrl = game_ctrl.GameCtrl(id);
+ctrl = GameCtrl(id);
 
 % Find buttons
 n_btns = 1;

@@ -16,5 +16,9 @@ in this package are described below:
 The GameCtrl class has methods for adding arbitrary button, axis, and POV
 name mappings, making it adaptable to any joystick input.
 
+### Toolbox Dependencies
+- Simulink 10.0
+- Simulink 3D Animation 8.3
+
 ### Cloning and Submodules
 Clone this repo as '+game_ctrl' and add the containing dir to the Matlab path.
